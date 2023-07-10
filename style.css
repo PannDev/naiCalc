@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Narnoor', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {	
+	background: rgb(71, 66, 66);
+    /* ga kepake */
+    /* height: 637px; */
+}
+
+.main {
+    /* center div yaa, pakai display flex ajaa */
+	/* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); */
+
+    /* ga kepake jadi gue cmd width nya */
+	/* width: fixed; */
+
+	background: rgba(0,0,0,0.4);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+/* center div */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main h3 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background: #8b7a60;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    /* transition 1 ajaa */
+    /* transition: 0.5s; */
+    transition:  all 0.2s ease;
+    box-shadow: 0 0 5px rgb(77, 77, 77), 0 0 10px rgb(77, 77, 77);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+  
+  .button:hover {
+    color: #ffc583;
+	background: #ffffff;
+	box-shadow: 0 0 5px rgb(160, 160, 160), 0 0 10px rgb(160, 160, 160), 0 0 50px rgb(160, 160, 160);
+  }
+
+  .button:active {
+    /*inget disini koma itu pake titik yh*/
+    /*transform: scale(0,0.5); */
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+.btn-org {
+	background:rgb(238, 211, 144);
+	color:#c59c35;
+}
+
+.btn-orgg {
+	background:rgb(186, 114, 31);
+	color:#c59c35;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #8b7a60;
+	border-radius: 25px;
+	text-align: right;
+}
